@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <title>Badal Mishra</title>
+
+    <!-- Scripts -->
+    <script src="js/app.js" defer></script>
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+
+    <!-- Styles -->
+    <link href="css/app.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/custom1.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark navbar-laravel bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="{{ url('/') }}">
+            Badal Mishra
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Left Side Of Navbar -->
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+
+            <!-- Right Side Of Navbar -->
+            <ul class="navbar-nav ml-auto">
+                <!-- Authentication Links -->
+
+                <li ><a href="/posts/about" class="nav-link" >About</a></li>
+                <li ><a href="/posts/service" class="nav-link" >Services</a></li>
+                <li ><a class="nav-link" href="/posts">Projects</a></li>
+                <li ><a class="nav-link" href="/posts">Biodata</a></li>
+                <li ><a class="nav-link" href="/posts">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/all.js" integrity="sha384-4oV5EgaV02iISL2ban6c/RmotsABqE4yZxZLcYMAdG7FAPsyHYAPpywE9PJo+Khy" crossorigin="anonymous"></script>
+      <div class="one text-center px-md-5 ">
+
+  <h1 class="display-4 lol ">Jump In! to know more</h1>
+  <hr class="mr-5 my-3">
+
+<small class="ss lol ">What do I know!</small>
+  <div class="row card-body" id="">
+          <a  href="#"class="card col-md-2 item animated ">
+              <div class="card-header a">BootStrap <br>CSS UI</div>
+           <div class="card-body"><i class="fas fa-quidditch"></i></div>
+          </a>
+
+          <a  href="#"class="card col-md-2 item animated ">
+              <div class="card-header a">jQuery <br>javaScriptUX</div>
+             <div class="card-body"><i class="fas fa-cogs"></i></div>
+          </a>
+
+          <a  href="#"class="card item animated col-md-2">
+            <div class="card-header a">PHP <br>Backend</div>
+            <div class="card-body"><i class="fab fa-php"></i></div>
+          </a>
+
+          <a  href="#"class="card item animated col-md-2">
+            <div class="card-header a">SQL <br>DataBase</div>
+            <div class="card-body"><i class="fas fa-save"></i></div>
+          </a>
+          <a  href="#"class="card item animated col-md-2">
+            <div class="card-header a">Laravel <br>MVC</div>
+            <div class="card-body"><i class="fab fa-laravel"></i></div>
+          </a>
+
+   </div>
+   <a href="#two" class="btn btn-primary know btn-lg">Know more about me</a>
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(".item").hide();
+var t = setInterval(lol,800)
+var c=0;
+function lol() {
+$(".item").eq(c).show();
+$(".item").eq(c).addClass("slideInLeft");
+c++;
+if (c>4) {
+  clearInterval(t);
+}
+}
+
+</script>
+<div class="text-center two" id="two">
+  <small class="ss ht">Who am I!</small>
+  <div class="data">
+    <p class="bri">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    <img src="css/me.jpg" class="my" alt="badal Mishra" >
+</div>
+</div>
+
+
+</body>
+</html>

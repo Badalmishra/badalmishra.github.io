@@ -143,5 +143,10 @@ small.lead{
   
     padding-top:10% !important;
   }
-  #three{margin-top:100px;}
+  #map{
+  margin:auto!important;
+  }
+  #three{margin-top:50px;
+    padding:2% !important
+  }
 }

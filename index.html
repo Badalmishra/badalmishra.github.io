@@ -44,7 +44,7 @@
                 <li ><a href="#" class="nav-link" >Services</a></li>
                 <li ><a class="nav-link" href="https://github.com/Badalmishra">Projects</a></li>
                 <li ><a class="nav-link" href="#">Biodata</a></li>
-                <li ><a class="nav-link" href="#">Contact</a></li>
+                <li ><a class="nav-link" href="#three">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -111,6 +111,38 @@ if (c>4) {
 </div>
 </div>
 
-
+<hr>
+<div class="text-center three" id="two">
+  <small class="ss ht">Where can I be found!</small>
+  <br><br>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="alert alert-info">
+        Email : badalmishr7035@gmail.com
+      </div>
+      <div class="alert alert-primary">
+        Phone : 7002472946
+      </div>
+      <div class="alert alert-danger">
+        Address: c/o Anil Bhagawati, bank Colony,
+     (opp) F.C.I Gate, GHY -21, Assam.
+      </div>
+    </div>
+    <div class="col-md-8 px-5">
+      <div id="map" style="width:60%;height:30vh;margin-left:auto; background:yellow"></div>
+        <script>
+        function myMap() {
+        var mapOptions = {
+            center: new google.maps.LatLng(51.5, -0.12),
+            zoom: 10,
+            mapTypeId: google.maps.MapTypeId.HYBRID
+        }
+        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+    </div>
+</div>
+</div>
 </body>
 </html>

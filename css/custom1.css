@@ -141,7 +141,7 @@ small.lead{
     }
   .two{
     height:auto;
-    padding-top:13% !important;
+    padding-top:15% !important;
   }
   #map{
   margin:auto!important;
@@ -152,6 +152,6 @@ small.lead{
   }
   #three div{
   padding-left:0px !important;
-  padding-rigth:0px !important;
+  padding-right:0px !important;
   }
 }

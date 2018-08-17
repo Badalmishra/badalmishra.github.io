@@ -155,8 +155,8 @@ small.lead{
     overflow:scroll !important;
   }
   #three div{
-  padding-left:0px !important;
-  padding-right:0px !important;
+  padding-left:4%px !important;
+  padding-right:4%px !important;
   }
   #three .row{
   margin:auto !important;

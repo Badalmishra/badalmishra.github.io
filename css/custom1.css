@@ -78,7 +78,7 @@ body{
     font-family: 'Modern Antiqua', cursive;
 }
 .two{
-  padding-top: 5%;
+  padding-top: 8%;
 
   color:black;
   width: 100%;
@@ -145,10 +145,12 @@ small.lead{
   }
   #map{
   margin:auto!important;
-    width:90% !important;
+    width:100% !important;
   }
   #three{margin-top:50px;
-    padding:auto!important;
+   
+  padding-left:0px !important;
+  padding-right:0px !important;
   }
   #three div{
   padding-left:0px !important;

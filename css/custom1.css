@@ -141,16 +141,17 @@ small.lead{
     }
   .two{
     height:auto;
-    padding-top:10% !important;
+    padding-top:13% !important;
   }
   #map{
   margin:auto!important;
     width:90% !important;
   }
-  #three{margin-top:80px;
+  #three{margin-top:50px;
     padding:auto!important;
   }
   #three div{
   padding-left:0px !important;
+  padding-rigth:0px !important;
   }
 }

@@ -114,7 +114,7 @@ small.lead{
   display: none;
 }
 #three{
-  background:;
+  overflow:hidden;
 }
 @media only screen and (max-width: 720px) {
     .item{
